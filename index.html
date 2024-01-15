@@ -1,266 +1,522 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>CV MARTIN SHEPARD</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="img/cv.jpeg">
+  <title>CV PABLO DAVID VEGA MORENO</title>
 </head>
+
 <body>
-    <!-- SECCION INICIO -->
-    <section class="inicio" id="inicio">
-        <div class="contenido-seccion">
-            <header>
-                <div class="nav-bar" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <nav id="nav" class="nav">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#sobremi">Sobre mí</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#resumen">Resumen</a>
-                    <a href="#contacto">Contacto</a>
-                </nav>
-                <div class="logo">
-                    M<span class="color">S</span>
-                </div>
-            </header>
-            <div class="info">
-                <h1>MARTIN SHEPARD</h1>
-                <h2>CODIFICADOR, DISEÑADOR, PROFESIONAL</h2>
-                <div class="redes">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                </div>
-            </div>
-            <div class="foto">
-                <img src="img/foto.png" alt="">
-            </div>
+  <!-- SECCION INICIO -->
+  <section class="inicio" id="inicio">
+    <div class="contenido-seccion">
+      <header>
+        <div class="nav-bar" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
         </div>
-    </section>
-
-    <!-- SECCION SOBRE MI -->
-    <section class="sobremi" id="sobremi">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Sobre Mi</h2>
-            <h3>Detalles personales</h3>
-
-            <p class="especial">Me dedico a producir ideas creativas y originales para mis clientes</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nobis! Sit, veniam aut omnis est suscipit itaque tempore fugiat! Repellat, necessitatibus. Neque quis, reprehenderit fugit dolore voluptate nam eum reiciendis!</p>
-
-            <div class="fila">
-                <div class="col">
-                    <i class="fa-solid fa-user"></i>
-                    <span class="titulo-detalle">Perfil</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-location-pin"></i>
-                    <span class="titulo-detalle">Ubicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-flag"></i>
-                    <span class="titulo-detalle">Intereses</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-            </div>
+        <nav id="nav" class="nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobremi">Sobre mí</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#resumen">Resumen</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="logo">
+          D<span class="color">V</span>
         </div>
-    </section>
-
-    <!-- SECCION HABILIDADES -->
-    <section class="habilidades" id="habilidades">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Mis habilidades</h2>
-            <h3>Me especializo en</h3>
-
-            <div class="fila">
-                <div class="col">
-                    <span>HTML/CSS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="html">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                            
-                        </div>
-                        <span>98%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>JAVASCRIPT</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="javascript">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>70%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <span>WORDPRESS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="wordpress">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>90%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>PHOTOSHOP</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="photoshop">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>85%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <span>PHP</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="php">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>95%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>ILUSTRATOR</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="ilustrator">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>75%</span>
-                    </div>
-                </div>
-            </div>
+      </header>
+      <div class="info">
+        <h1>PABLO DAVID VEGA MORENO</h1>
+        <h2>CODIFICADOR, FRONT-END, JUNIOR</h2>
+        <div class="redes">
+          <a href="https://twitter.com/pablodavidveg"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/pablodavid.vegamoreno.1"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/pablo-david-vega-moreno-b364141a9/"><i
+              class="fa-brands fa-linkedin-in"></i></a>
         </div>
-    </section>
+      </div>
+      <div class="foto">
+        <img src="img/photo.png" alt="">
+      </div>
+    </div>
+  </section>
 
-    <!-- SECCION RESUMEN -->
-    <section class="resumen" id="resumen">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Resumen</h2>
-            <h3>Mi preparación y experiencia</h3>
-            <div class="info">
-                <div class="col">
-                    <span class="titulo">Educación</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2006 - 2010</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Lic. en computación</h4>
-                                <p>Universidad de San Juan</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2010 - 2015</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Programador FS</h4>
-                                <p>Udemy Cursos</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col">
-                    <span class="titulo">Experiencia Laboral</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>3 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Mercado Libre</h4>
-                                <p>Programador Junior</p>
-                               
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Software Inc.</h4>
-                                <p>Diseñadr Principal</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+  <!-- SECCION SOBRE MI -->
+  <section class="sobremi" id="sobremi">
+    <div class="contenido-seccion">
+      <h2 class="titulo-seccion">Sobre Mi</h2>
+      <h3>Detalles personales</h3>
+
+      <p class="especial">Soy un desarrollador Front-End con una sólida formación autodidacta y una pasión por
+        el aprendizaje de las últimas tecnologías en el campo.</p>
+      <p>Más allá de mi pasión por el desarrollo front-end y la creación de experiencias digitales cautivadoras, me
+        caracterizo por mi insaciable curiosidad y deseo constante de aprender. Mi entusiasmo se refleja no solo en mi
+        dedicación para dominar los lenguajes de programación frontend, como JavaScript, sino también en mi constante
+        búsqueda de nuevas oportunidades para expandir mi conocimiento.
+
+        Me considero un apasionado colaborador de equipos, encontrando inspiración en la sinergia que surge al trabajar
+        junto a mentes creativas y diversas. La resolución de problemas y el afrontar tareas desafiantes en proyectos
+        innovadores es lo que más me motiva. Mi compromiso no solo se limita a la ejecución técnica, sino que abarca el
+        proceso completo, desde la concepción de una idea hasta su implementación en producción.
+
+        Además de mi enfoque en el desarrollo front-end, tengo un interés particular en explorar los entresijos de CMS
+        como Drupal y plataformas en la nube como AWS. La oportunidad de sumergirme en la arquitectura web y comprender
+        el ciclo completo, desde la planificación hasta la entrega en producción, me fascina y me impulsa a seguir
+        aprendiendo y creciendo en este apasionante campo.</p>
+
+      <div class="fila">
+        <div class="col">
+          <i class="fa-solid fa-user"></i>
+          <span class="titulo-detalle">Perfil</span>
+          <p>Habilidades sobresalientes en HTML y CSS, con experiencia en la creación de
+            maquetas elegantes y atractivas. Especializado en el uso de SASS para compilar
+            estilos.
+            Experiencia en Bootstrap, jQuery y diseño responsivo para crear soluciones web
+            adaptables a cualquier tamaño de pantalla.
+            Conocimientos avanzados en versionamiento con Git.
+            Familiarizado con plataformas de diseño como Figma y entornos en la nube como
+            Azure.
+            Conocimientos en la gestión de sitios web con Pantheon.
+            Mejorando constantemente mis habilidades en JavaScript y React a través de cursos y
+            tutoriales.
+            Conocimientos básicos en CMS, como Drupal, adquiridos durante el curso de Drupal
+            Site Building en Forcontu.
+            Comprometido a seguir aprendiendo y aplicando mis habilidades para crear
+            soluciones web innovadoras y efectivas.</p>
         </div>
-    </section>
-
-    <!-- SECCION CONTACTO -->
-    <section class="contacto" id="contacto">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Contacto</h2>
-            <h3>Ponte en contacto ahora mismo!</h3>
-
-            <div class="fila">
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-phone"></i> Teléfono
-                    </h2>
-                    <span class="info-contacto">11 - 11223344</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-envelope"></i> Correo
-                    </h2>
-                    <span class="info-contacto">martinshepard@gmail.com</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-globe"></i> Página Web
-                    </h2>
-                    <span class="info-contacto">martinshepard.com</span>
-                </div>
-            </div>
+        <div class="col">
+          <i class="fa-solid fa-location-pin"></i>
+          <span class="titulo-detalle">Ubicación</span>
+          <p>Bogotá Colombia</p>
         </div>
-    </section>
+        <div class="col">
+          <i class="fa-solid fa-flag"></i>
+          <span class="titulo-detalle">Intereses</span>
+          <p>
+            Ciclo Completo de Desarrollo:
+            Participar activamente en todas las fases del desarrollo de productos, desde el análisis inicial y
+            prototipado, hasta las pruebas con usuarios y la constante mejora de soluciones. Mi motivación radica en
+            crear productos que no solo cumplan con las expectativas, sino que también superen las necesidades
+            cambiantes del usuario.
 
-    <script src="app.js"></script>
+            Construcción de Sistemas Frontend Eficientes:
+            Mi enfoque técnico busca no solo cumplir con los requisitos presentes, sino también anticipar y preparar la base para
+            futuras expansiones y adaptaciones.
+
+            Liderazgo en Mejores Prácticas:
+            Identificar y comunicar las mejores prácticas en la ingeniería de frontend es esencial para mí. 
+
+            Colaboración y Aprendizaje en Equipo:
+            Valorando la colaboración con profesionales y especialistas, busco compartir conocimientos y aprender de
+            experiencias compartidas. Creo firmemente en la sinergia que surge cuando se trabaja junto a individuos
+            apasionados y talentosos.
+
+            Mi compromiso va más allá de la ejecución técnica; se enfoca en la construcción de soluciones sólidas, la
+            promoción de prácticas excepcionales y el crecimiento continuo, contribuyendo así al éxito colectivo del
+            equipo y al desarrollo constante en el ámbito del desarrollo frontend.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION HABILIDADES -->
+  <section class="habilidades" id="habilidades">
+    <div class="contenido-seccion">
+      <h2 class="titulo-seccion">Mis habilidades</h2>
+      <h3>Me especializo en</h3>
+
+      <div class="fila">
+        <div class="col">
+          <span>HTML/CSS</span>
+          <div class="cont-barra">
+            <div class="barra" id="html">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="col">
+          <span>JAVASCRIPT</span>
+          <div class="cont-barra">
+            <div class="barra" id="javascript">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>50%</span>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col">
+          <span>Drupal</span>
+          <div class="cont-barra">
+            <div class="barra" id="wordpress">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>40%</span>
+          </div>
+        </div>
+        <div class="col">
+          <span>React</span>
+          <div class="cont-barra">
+            <div class="barra" id="photoshop">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>30%</span>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col">
+          <span>Git</span>
+          <div class="cont-barra">
+            <div class="barra" id="php">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="col">
+          <span>Sass</span>
+          <div class="cont-barra">
+            <div class="barra" id="ilustrator">
+              <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+            </div>
+            <span>80%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION RESUMEN -->
+  <section class="resumen" id="resumen">
+    <div class="contenido-seccion">
+      <h2 class="titulo-seccion">Resumen</h2>
+      <h3>Mi preparación y experiencia</h3>
+      <div class="info">
+        <div class="col">
+          <span class="titulo">Certificaciones</span>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Introduction to Drupal9</h4>
+                <p>Forcontu cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Git y Github</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Curso práctico de Javascript</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Curso básico de Javascript</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2021</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Javascript, Jquery</h4>
+                <p>Udemy cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>English Basics1</h4>
+                <p>Colsubsidio cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Basic English A1</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Ingles básico nivel1</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Ingles básico nivel2</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Ingles básico nivel3</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2023</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Ingles básico nivel4</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Basic English A1</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Economia Digital</h4>
+                <p>Platzi cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2022</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Filmora9 Edición de video</h4>
+                <p>Udemy cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2011</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4> Mercadeo</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2011</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Manejo de herramientas Excel</h4>
+                <p>Sena cursos</p>
+                <span class="promedio"></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col">
+          <span class="titulo">Experiencia Laboral</span>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>2 Años</h3>
+              </td>
+              <td rowspan="2" class="descripcion">
+                Desarrollador Front-End con experiencia en el uso de tecnologías web modernas
+                para la creación de interfaces atractivas y funcionales.
+                Expertise en HTML, CSS3 y JavaScript, con conocimientos profundos en el
+                compilador SASS y el framework Bootstrap. Con habilidades
+                en la utilización de JQuery y JavaScript para agregar funcionalidades dinámicas a
+                las páginas web. Experiencia básica en el desarrollo Front-End en la plataforma
+                Drupal y en el montaje de entornos virtuales con Lando . Además, manejo de
+                herramientas de versionamiento como Github para garantizar la organización y
+                control de versiones en el desarrollo de proyectos.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>SeedEM S.A.S</h4>
+                <p>Desarrollador Front-End Junior</p>
+
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="datos">
+                <h3>1 Año</h3>
+              </td>
+              <td rowspan="2" class="descripcion">
+                Desarrollo Front-End bajo la ejecución del compilador SASS para agregar estilos
+                CSS3 y Bootstrap como framework para la creación de interfaces web.
+                Maquetación HTML, utilización de JQuery para fabricar efectos como modales y eventos en
+                los formularios. Utilización de herramientas de versionamiento como Github.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Web & Digital Ark SAS</h4>
+                <p>Desarrollador Front-End Junior</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="contenido-seccion">
+      <h2 class="titulo-seccion">Contacto</h2>
+      <h3>Ponte en contacto ahora mismo!</h3>
+
+      <div class="fila">
+        <div class="col">
+          <h2>
+            <i class="fa-solid fa-phone"></i> Teléfono
+          </h2>
+          <span class="info-contacto">+57 3102140519</span>
+        </div>
+        <div class="col">
+          <h2>
+            <i class="fa-solid fa-envelope"></i> Correo
+          </h2>
+          <span class="info-contacto">pablo.david.vega1@gmail.com</span>
+        </div>
+        <div class="col">
+          <h2>
+            <i class="fa-solid fa-globe"></i> Página Web
+          </h2>
+          <a href="http://www.google.com" class="info-contacto">martinshepard.com</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
